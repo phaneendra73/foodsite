@@ -62,7 +62,8 @@ h1 {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     color: #ffffff;
     border: 1px solid #e67e22;
@@ -71,13 +72,15 @@ h1 {
 }
 
 .btn-ghost:link,
-.btn-ghost:visited {
+.btn-ghost:visited,
+input[type=submit] {
     border: 1px solid #e67e22;
     color: #e67e22;
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit] {
     background-color: #cf6d179f;
 }
 
@@ -363,7 +366,120 @@ blockquote:before {
     font-weight: 100;
     color: #e67e22;
 }
-.plan-price-meal{
+
+.plan-price-meal {
     font-size: 80%;
-    
+
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 8;
+}
+
+.plan-box ul {
+
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+.plan-box div:last-child {
+    border: 0;
+    text-align: center;
+}
+
+.plan-box div:first-child {
+    background-color: #ff770070;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border-end-end-radius: 1px solid #ccc;
+}
+
+textarea {
+    height: 100%;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+footer {
+    background-color: #333;
+    font-size: 80%;
+    padding: 50px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:hover {
+    color: #ddd;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 20px;
+}
+
+.fb:hover {
+    color: #3b5998;
+}
+
+.tweet:hover {
+    color: #00aced;
+}
+
+.google:hover {
+    color: #dd4b55;
+}
+
+.insta:hover {
+    color: #517fa4;
+}
+.social-links li a:link,
+.social-links li a:visited{
+    font: size 160%;
 }

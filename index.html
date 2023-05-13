@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="vendor/css/2cols.css">
     <link rel="stylesheet" href="vendor/css/4cols.css">
     <link rel="stylesheet" href="vendor/css/3cols.css">
+    <link rel="stylesheet" href="vendor/css/queries.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,21 +21,21 @@
         <nav>
             <div class="row"><img class="logo" src="./resources/css/img/logo-white.png" alt="">
                 <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">sign up</a></li>
+                    <li><a href="#features">Food delivery</a></li>
+                    <li><a href="#hiw">How it works</a></li>
+                    <li><a href="#citi">Our cities</a></li>
+                    <li><a href="#signup">sign up</a></li>
                 </ul>
             </div>
 
         </nav>
         <div class="hero-text-box">
             <h1>GoodBye junk food <br>Hello super healthy FOOD</h1>
-            <a class="btn btn-full" href="#">I'm hungry </a>
-            <a class="btn btn-ghost" href="#">show me more</a>
+            <a class="btn btn-full" href="#plans">I'm hungry </a>
+            <a class="btn btn-ghost" href="#features">show me more</a>
         </div>
     </header>
-    <section class="section-features">
+    <section class="section-features" id="features" data-aos="fade-in" data-aos-duration="4000">
         <div class="row">
             <h2>Get food fast &mdash; not fast food</h2>
             <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always
@@ -72,7 +74,7 @@
         </div>
 
     </section>
-    <section class="section-meals">
+    <section class="section-meals" data-aos="fade-in" data-aos-duration="4000">
         <ul class="meals-showcase">
             <li>
                 <figure class="meal-photo">
@@ -119,13 +121,13 @@
         </ul>
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps" id="hiw" data-aos="fade-in" data-aos-duration="4000">
         <div class="row">
             <h2>How it works &mdash; Simple as 1,2,3</h2>
         </div>
         <div class="row">
             <div class="col span_1_of_2 steps-box">
-                <img src="resources/css/img/app-iPhone.png" alt="phone image" class="app-screen">
+                <img data-aos="slide-left" data-aos-duration="4000" src="resources/css/img/app-iPhone.png" alt="phone image" class="app-screen">
             </div>
         </div class="col span_1_of_2 steps-box">
         <div class="work-step">
@@ -144,7 +146,7 @@
         <a href="#" class="btn-app"><img src="./resources/css/img/download-app-android.png" alt=""></a>
         </div>
     </section>
-    <div class="section-cities">
+    <div class="section-cities" id="city">
         <div class="row">
             <h2>we are ecurrently in these cities</h2>
         </div>
@@ -211,7 +213,7 @@
             </div>
         </div>
     </div>
-    <section class="section-testimonials">
+    <section class="section-testimonials" data-aos="fade-up" data-aos-duration="4000">
         <div class="row">
             <h2>Our customer can't live without us</h2>
         </div>
@@ -244,23 +246,23 @@
             </div>
         </div>
     </section>
-    <section class="section-plans">
+    <section class="section-plans" id="plans">
         <div class="row">
             <h2>start eating healthy today</h2>
         </div>
         <div class="row">
             <div class="col span_1_of_3">
                 <div class="plan-box">
-                    <div>
+                    <div data-aos="zoom-in" data-aos-duration="4000">
                         <h3>Premimum</h3>
-                        <p class="plan-price">$399/month</p>
+                        <p class="plan-price">$399<span>/month</span></p>
                         <p class="plan-price-meal">that only 13.3$ per meal</p>
                     </div>
                     <ul>
-                        <li><ion-icon name="checkmark"></ion-icon>1 meal every day</li>
-                        <li><ion-icon name="checkmark"></ion-icon>order 24*7</li>
-                        <li><ion-icon name="checkmark"></ion-icon>Acess any time</li>
-                        <li><ion-icon name="checkmark"></ion-icon>free delivery</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>1 meal every day</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>order 24*7</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>Acess any time</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>free delivery</li>
                     </ul>
                 </div>
                 <div>
@@ -271,14 +273,14 @@
                 <div class="plan-box">
                     <div>
                         <h3>Pro</h3>
-                        <p class="plan-price">$199/month</p>
+                        <p class="plan-price">$199<span>/month</span></p>
                         <p class="plan-price-meal">that only 13.3$ per meal</p>
                     </div>
                     <ul>
-                        <li><ion-icon name="checkmark"></ion-icon>1 meal every day</li>
-                        <li><ion-icon name="checkmark"></ion-icon>order 24*7</li>
-                        <li><ion-icon name="checkmark"></ion-icon>Acess any time</li>
-                        <li><ion-icon name="checkmark"></ion-icon>free delivery</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>1 meal every day</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>order 24*7</li>
+                        <li><ion-icon class="icon-small"name="checkmark"></ion-icon>Acess any time</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>free delivery</li>
                     </ul>
                 </div>
                 <div>
@@ -289,14 +291,15 @@
                 <div class="plan-box">
                     <div>
                         <h3>Basic</h3>
-                        <p class="plan-price">$19</p>
+                        <p class="plan-price">$19 <span>/meal</span>
+                        </p>
                         <p class="plan-price-meal">&nbsp;</p>
                     </div>
                     <ul>
-                        <li><ion-icon name="checkmark"></ion-icon>1 meal every day</li>
-                        <li><ion-icon name="checkmark"></ion-icon>order 24*7</li>
-                        <li><ion-icon name="checkmark"></ion-icon>Acess any time</li>
-                        <li><ion-icon name="checkmark"></ion-icon>free delivery</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>1 meal every day</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>order 24*7</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>Acess any time</li>
+                        <li><ion-icon class="icon-small" name="checkmark"></ion-icon>free delivery</li>
                     </ul>
                 </div>
                 <div>
@@ -305,10 +308,127 @@
             </div>
         </div>
     </section>
+    <section class="section-form" id="signup">
+        <div class="row">
+            <h2>we are happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form action="#" method="POST" class="contact-form">
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="">Name</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="email" name="name" id="name" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label>How did you find us ?</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends">friends</option>
+                            <option value="serach">serach</option>
+                            <option value="ads">advetiemnts</option>
+                            <option value="others">others</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label>News letter</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="checkbox" name="News" id="News" checked>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label>Drop a line</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <textarea name="text" id="ta" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="submit" value="send">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span_1_of_2">
+                <ul class="footer-nav">
+                <li><a href="">About us</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Press</a></li>
+                <li><a href="">IOs app</a></li>
+                <li><a href="">Androiod App</a></li>
+                </ul>
+            </div>
+            <div class="row span_1_of_2">
+                <ul class="social-links">
+                    <li><ion-icon class="fb" name="logo-facebook"></ion-icon></li>
+                    <li><ion-icon class="tweet" name="logo-twitter"></ion-icon></li>
+                    <li><ion-icon class="google" name="logo-google"></ion-icon></li>
+                    <li><ion-icon class="insta" name="logo-instagram"></ion-icon></li>
+                </ul>
+            </div>
+            <div class="row"
+            ><p>CopyRight &copy; 2015 by omnifood all rights reserved</p></div>
+        </div>
+    </footer>
 
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
