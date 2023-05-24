@@ -4,6 +4,8 @@ I am thrilled to share my latest project, a captivating food website that showca
 
 As you navigate to the website, you'll be greeted by a visually stunning interface that immediately whets your appetite. The carefully crafted layout, responsive design, and enticing color scheme instantly draw you into the world of gastronomy. The use of HTML allowed me to structure the content effectively, ensuring a seamless browsing experience for visitors.
 
+![foodsite](https://github.com/phaneendra73/foodsite/assets/118047850/5e976b7d-85e0-42c1-9f00-7cca1fc5c4a6)
+
 One of the standout features of my food website is the gallery of mouthwatering food images. Leveraging the power of CSS, I meticulously styled the images, creating an immersive experience that showcases the culinary delights in their full glory. The combination of CSS animations and transitions adds a touch of elegance as the images gracefully slide into view, tempting visitors to explore further.
 
 To elevate user engagement, I employed jQuery to introduce dynamic and interactive elements throughout the website. The navigation menu, powered by jQuery, smoothly scrolls to different sections, enhancing the browsing experience. Additionally, I incorporated jQuery plugins to create engaging image sliders and captivating transitions that seamlessly showcase the diverse food offerings.
